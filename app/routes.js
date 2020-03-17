@@ -13,6 +13,11 @@
                 controllerAs: 'vm',
                 templateUrl: 'app/views/films.html'
             })
+            .when('/characters/:id',{
+                controller: 'CharactersController',
+                controllerAs: 'vm',
+                templateUrl: 'app/views/characters.html'
+            })
             .otherwise({
                 controller: 'HomeController',
                 controllerAs: 'vm',
