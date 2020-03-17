@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">    
+    <title>SW-Api</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="bower_components\bootswatch\dist\cyborg\bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components\toastr\toastr.min.css">
+    <link rel="stylesheet" href="bower_components\font-awesome\css\all.min.css">    
+    
+</head>
+<body>
+    <div ng-include="'header.html'"></div>
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+    <script src="bower_components\jquery\dist\jquery.min.js"></script>
+    <script src="bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="bower_components\toastr\toastr.min.js"></script>
+    <script src="bower_components\angular\angular.min.js"></script>
+    <script src="bower_components\angular-route\angular-route.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/routes.js"></script>
+    <script src="app/config.js"></script>
+
+    <script src="app/controllers/home-controller.js"></script>
+    <script src="app/controllers/films-controller.js"></script>
+</body>
+</html>
